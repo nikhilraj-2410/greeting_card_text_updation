@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebrare_assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button type="button" id="reset-text">Reset</button>
+  <div class="container">
+    <div class="left-box">
+        <h2 style="color:r#0B1C24">Greeting Cards</h2>
+         <p id="editable-text">
+         
+         </p>
+    </div>
+    <div class="right-box">
+      <form action="#">
+        
+        <label   style="color:r#0B1C24" for="font-style"><strong>Font-Style:</strong></label>
+        <select class="change-color" id="font-style" name="font-style">
+          <option value="Arial">Arial</option>
+          <option value="Arial Black">Arial Black</option>
+          <option value="Verdana">Verdana</option>
+          <option value="Normal">Calibri</option>
+          <option value="italic">Roboto</option>
+          <option value="Arial Black">Lato</option>
+          <option value="Verdana">Georgia</option>
+
+        </select>
+
+
+        <label   style="color:r#0B1C24" for="font-size"><strong>Font Size:</strong></label>
+        <select class="change-color" id="font-size" name="font-size">
+         
+          <option value="11">11px</option>
+          <option value="12">12px</option>
+          <option value="13">13px</option>
+          <option value="14">14px</option>    
+          <option value="18" >18px</option>
+          <option value="20">20px</option>
+          <option value="22">22px</option>
+          <option value="25" selected>25px</option>
+          <option value="26">26px</option>
+          <option value="28">28px</option>
+          <option value="30">30px</option>
+          <option value="36">35px</option>
+          <option value="38">28px</option>
+          <option value="42">30px</option>
+          <option value="44">35px</option>
+
+        
+        </select>
+       
+        <label style="color:r#0B1C24" for="font-color"><strong>Font Color:</strong></label>
+        <input class="change-color" type="color" id="font-color" name="font-color">
+        <label style="color:r#0B1C24" for="add-text"><strong>Add Text:</strong></label>
+        <input class="change-color" type="text" id="add-text" name="add-text" placeholder="Type text to add..">
+        <button type="button" id="update-text">Update</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
